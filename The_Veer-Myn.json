@@ -1,0 +1,3346 @@
+{
+  "catalogue": {
+    "name": "The Veer-Myn",
+    "id": "c5bf-46cc-a745-659f",
+    "authorContact": "BAE2 (Github)",
+    "authorName": "Ben Edwards",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "961d-4085-6c41-e300",
+    "gameSystemRevision": 1,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "publications": [{"name": "Warpath: Firefight Rulebook", "id": "c5bf-46cc-pub1"}, {"name": "Warpath: Firefight Resource", "id": "c5bf-46cc-pub2"}],
+    "selectionEntries": [
+      {
+        "name": "Nightcrawlers Unit (5)",
+        "id": "d178-c0af-0820-c580",
+        "collective": false,
+        "hidden": false,
+        "page": 145,
+        "publicationId": "c5bf-46cc-pub1",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "bbeb-568c-193e-cd70", "hidden": false, "primary": true, "targetId": "c566-b1d1-6463-db4c"}],
+        "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 45}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+        "infoLinks": [{"name": "Expendable", "id": "777e-f3ac-e063-2436", "hidden": false, "targetId": "7773-aa9f-1a77-2fd8", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Nightcrawlers",
+            "id": "c208-38d1-c726-7ef4",
+            "hidden": false,
+            "page": 145,
+            "publicationId": "c5bf-46cc-pub1",
+            "typeId": "a154-7310-742d-79c2",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Height", "$text": "2", "typeId": "614b-945c-f241-be21"},
+              {"name": "Spd", "$text": "6", "typeId": "57fb-47e5-454f-010d"},
+              {"name": "Mel", "$text": "5+", "typeId": "22f8-2838-c2f7-a63c"},
+              {"name": "Acc", "$text": "5+", "typeId": "5ccf-0565-9b70-d0a1"},
+              {"name": "Def", "$text": "4+", "typeId": "707e-1795-1ba8-ce28"},
+              {"name": "Res", "$text": "1", "typeId": "6314-9a85-446c-b72e"},
+              {"name": "Ner", "$text": "1", "typeId": "7d58-a7d8-4cab-d5ef"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Team Type",
+            "id": "f9d8-6320-7824-7f18",
+            "collective": false,
+            "defaultSelectionEntryId": "f5b9-985b-2b9d-1736",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "cc84-4af8-ae1a-0016",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "a171-f233-c785-4145",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Nightcrawlers",
+                "id": "f5b9-985b-2b9d-1736",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Equipment",
+                    "id": "1fc9-1292-55a0-d9ef",
+                    "collective": false,
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "name": "Ray Gun",
+                        "id": "3c6f-6385-d985-ac9b",
+                        "collective": false,
+                        "hidden": false,
+                        "type": "upgrade",
+                        "constraints": [
+                          {
+                            "id": "470d-7c42-0e73-c5fa",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          },
+                          {
+                            "id": "527c-25ba-79d3-22e0",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          }
+                        ],
+                        "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                        "infoLinks": [
+                          {
+                            "name": "Ray Gun",
+                            "id": "4ccc-4304-1b69-3c93",
+                            "hidden": false,
+                            "targetId": "6ebc-493b-5e58-7398",
+                            "type": "profile",
+                            "modifiers": [{"field": "page", "type": "set", "value": 145}]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Teeth and Claws",
+                        "id": "93b7-ff4f-ea80-0a54",
+                        "collective": false,
+                        "hidden": false,
+                        "type": "upgrade",
+                        "constraints": [
+                          {
+                            "id": "8304-4dc0-b35e-bf0e",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          },
+                          {
+                            "id": "a90d-226a-b277-78c1",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          }
+                        ],
+                        "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                        "infoLinks": [
+                          {
+                            "name": "Teeth and Claws",
+                            "id": "86a7-cbd0-90c3-3822",
+                            "hidden": false,
+                            "targetId": "7eea-6d6f-6ac0-f677",
+                            "type": "profile",
+                            "modifiers": [{"field": "page", "type": "set", "value": 145}]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Nightcrawler Stalkers",
+                "id": "010d-97cc-19d9-7af8",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Equipment",
+                    "id": "f6d9-da6e-3995-f6b3",
+                    "collective": false,
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "name": "Ray Pistol",
+                        "id": "561c-b670-c0fe-c31e",
+                        "collective": false,
+                        "hidden": false,
+                        "type": "upgrade",
+                        "constraints": [
+                          {
+                            "id": "4181-b248-b969-4d41",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          },
+                          {
+                            "id": "1888-0ef6-6507-e15c",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          }
+                        ],
+                        "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                        "infoLinks": [
+                          {
+                            "name": "Ray Pistol",
+                            "id": "716e-e49f-ba8a-46ee",
+                            "hidden": false,
+                            "targetId": "6840-f068-daf6-d350",
+                            "type": "profile",
+                            "modifiers": [{"field": "page", "type": "set", "value": 145}]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Knives, Teeth and Claws",
+                        "id": "1c70-4f49-cd19-0bc1",
+                        "collective": false,
+                        "hidden": false,
+                        "type": "upgrade",
+                        "constraints": [
+                          {
+                            "id": "2592-9bea-2b8f-4286",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          },
+                          {
+                            "id": "9f7f-40b8-506e-b46e",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          }
+                        ],
+                        "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                        "infoLinks": [
+                          {
+                            "name": "Knives, Teeth and Claws",
+                            "id": "15fa-514c-72b6-bfe1",
+                            "hidden": false,
+                            "targetId": "8dd8-fedd-c7eb-140c",
+                            "type": "profile",
+                            "modifiers": [{"field": "page", "type": "set", "value": 145}]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Equipment Upgrades",
+            "id": "60a6-fef1-be8d-df14",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "ede2-c516-98d5-ccae",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Malignus Heavy Ray Gun (Replace all weapons on 1 model)",
+                "id": "1b57-4e61-cd03-39da",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "e720-f362-7f5f-ac4d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  }
+                ],
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 25}],
+                "infoLinks": [
+                  {
+                    "name": "Heavy Ray Gun",
+                    "id": "32c7-4504-4d98-9c61",
+                    "hidden": false,
+                    "targetId": "39c0-48a6-4c70-fef6",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 145}]
+                  },
+                  {"name": "Experimental", "id": "be3a-9219-5299-eb8f", "hidden": false, "targetId": "355f-4a02-16d9-d854", "type": "rule"},
+                  {"name": "Heavy Firepower", "id": "032f-2b49-f571-032f", "hidden": false, "targetId": "5112-40e8-57a4-8182", "type": "rule"}
+                ]
+              },
+              {
+                "name": "Malignus Chem Thrower (Replace all weapons on 1 model)",
+                "id": "2572-caaa-af95-faf2",
+                "collective": false,
+                "hidden": false,
+                "page": 152,
+                "publicationId": "c5bf-46cc-pub1",
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "341a-9fda-2b4a-647c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 10}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Blast (x)",
+                    "id": "515e-3e1d-397c-cb08",
+                    "hidden": false,
+                    "targetId": "b342-c697-bc22-5b9d",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Blast (2D3)"}]
+                  },
+                  {
+                    "name": "Volatile",
+                    "id": "1520-9efa-f984-c642",
+                    "hidden": false,
+                    "targetId": "cbee-7ff5-6692-c18b",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Volatile (3+)"}]
+                  },
+                  {"name": "Slow Reload", "id": "6c56-4119-c1cb-5abd", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+                  {"name": "Experimental", "id": "a433-6402-3eb3-0c49", "hidden": false, "targetId": "355f-4a02-16d9-d854", "type": "rule"},
+                  {
+                    "name": "Chem Thrower",
+                    "id": "cbd1-8bdc-1143-c73e",
+                    "hidden": false,
+                    "targetId": "6f0d-0383-83a5-01df",
+                    "type": "profile",
+                    "modifiers": [
+                      {"field": "c5f2-8050-3ee7-5f1d", "type": "set", "value": "Blast (2D3), Experimental, Slow Reload, Volatile (3+)"},
+                      {"field": "page", "type": "set", "value": 145}
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Personnel Upgrades",
+            "id": "e83b-de0d-b609-bbcf",
+            "collective": false,
+            "hidden": false,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "60a6-fef1-be8d-df14",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "d178-c0af-0820-c580",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Progenitor",
+                "id": "5315-faac-f12d-7ff1",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "4840-8397-5ade-395b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 25}],
+                "entryLinks": [
+                  {
+                    "name": "Commander Upgrades",
+                    "id": "6eaa-2532-37fb-dafd",
+                    "hidden": false,
+                    "targetId": "f47b-d502-4827-c697",
+                    "type": "selectionEntryGroup",
+                    "constraints": [
+                      {
+                        "id": "ee05-ede8-291f-08bd",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Command (x)",
+                    "id": "1e09-4ec4-efab-78a3",
+                    "hidden": false,
+                    "targetId": "96a2-514a-252e-95a6",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Command (1)"}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Creepers Unit (5)",
+        "id": "5f15-e003-a96c-47d6",
+        "collective": false,
+        "hidden": false,
+        "page": 146,
+        "publicationId": "c5bf-46cc-pub1",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9ed1-c429-9fd3-b4a6", "hidden": false, "primary": true, "targetId": "c566-b1d1-6463-db4c"}],
+        "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 65}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+        "infoLinks": [
+          {"name": "Fire in the Hole!", "id": "df5a-d418-ce52-863b", "hidden": false, "targetId": "8524-2cf2-4a29-c812", "type": "rule"},
+          {"name": "Reckless Advance", "id": "5b16-ad18-7686-36ae", "hidden": false, "targetId": "061c-3835-284c-099d", "type": "rule"},
+          {"name": "Saboteur", "id": "580d-d0bd-610a-377b", "hidden": false, "targetId": "1f72-0333-e3af-383b", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Creepers",
+            "id": "7ea4-7c9b-b362-0802",
+            "hidden": false,
+            "page": 146,
+            "publicationId": "c5bf-46cc-pub1",
+            "typeId": "a154-7310-742d-79c2",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Height", "$text": "2", "typeId": "614b-945c-f241-be21"},
+              {"name": "Spd", "$text": "6", "typeId": "57fb-47e5-454f-010d"},
+              {"name": "Mel", "$text": "5+", "typeId": "22f8-2838-c2f7-a63c"},
+              {"name": "Acc", "$text": "5+", "typeId": "5ccf-0565-9b70-d0a1"},
+              {"name": "Def", "$text": "4+", "typeId": "707e-1795-1ba8-ce28"},
+              {"name": "Res", "$text": "1", "typeId": "6314-9a85-446c-b72e"},
+              {"name": "Ner", "$text": "1", "typeId": "7d58-a7d8-4cab-d5ef"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipment",
+            "id": "8cd8-da42-cd12-cb06",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Ray Pistol",
+                "id": "48f3-64b1-9b5e-ebc1",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "c38e-2193-6044-0cc0",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "793f-da91-43e2-390e",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Ray Pistol",
+                    "id": "2278-d473-a29b-f234",
+                    "hidden": false,
+                    "targetId": "6840-f068-daf6-d350",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 146}]
+                  }
+                ]
+              },
+              {
+                "name": "Det Pack",
+                "id": "fca1-4a0d-ad13-cc9d",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "01c7-39b9-c1a4-da0b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "8319-e6e7-e455-20f4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Det Pack",
+                    "id": "f29d-7463-f935-71e9",
+                    "hidden": false,
+                    "targetId": "d694-7e83-b79a-b0c1",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 146}]
+                  },
+                  {"name": "Anti-Tank", "id": "a5fc-5f95-a41e-228c", "hidden": false, "targetId": "f8f3-271f-9d1f-0ad5", "type": "rule"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Personnel Upgrades",
+            "id": "db60-5b75-c019-30cc",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Master Creeper",
+                "id": "5db5-1040-7ad0-e162",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "ebe5-69f0-4935-7832",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 50}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+                "infoLinks": [
+                  {"name": "Sabotage Objective Order", "id": "3623-080c-166a-1bd0", "hidden": false, "targetId": "9a2a-9ccd-e571-d5d0", "type": "rule"},
+                  {
+                    "name": "Command (x)",
+                    "id": "98c6-d843-bafb-7a8f",
+                    "hidden": false,
+                    "targetId": "96a2-514a-252e-95a6",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Command (1)"}]
+                  },
+                  {"name": "Recon", "id": "6460-4ed6-43ec-31cd", "hidden": false, "targetId": "d103-4c7f-1f94-b185", "type": "rule"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maligni Unit (5)",
+        "id": "07bf-6980-720d-c0c0",
+        "collective": false,
+        "hidden": false,
+        "page": 146,
+        "publicationId": "c5bf-46cc-pub1",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b671-a004-2702-d069", "hidden": false, "primary": true, "targetId": "c566-b1d1-6463-db4c"}],
+        "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 95}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+        "profiles": [
+          {
+            "name": "Maligni",
+            "id": "11b9-5bc8-e82d-db83",
+            "hidden": false,
+            "page": 146,
+            "publicationId": "c5bf-46cc-pub1",
+            "typeId": "a154-7310-742d-79c2",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Height", "$text": "2", "typeId": "614b-945c-f241-be21"},
+              {"name": "Spd", "$text": "6", "typeId": "57fb-47e5-454f-010d"},
+              {"name": "Mel", "$text": "4+", "typeId": "22f8-2838-c2f7-a63c"},
+              {"name": "Acc", "$text": "4+", "typeId": "5ccf-0565-9b70-d0a1"},
+              {"name": "Def", "$text": "4+", "typeId": "707e-1795-1ba8-ce28"},
+              {"name": "Res", "$text": "1", "typeId": "6314-9a85-446c-b72e"},
+              {"name": "Ner", "$text": "2", "typeId": "7d58-a7d8-4cab-d5ef"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipment",
+            "id": "09cd-ed72-5ad7-f640",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Chem Spitter",
+                "id": "91db-5dcd-d102-6947",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "aa30-29ee-8b14-92ed",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "040c-d46f-c0c1-50f4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Chem Spitter",
+                    "id": "61d4-f29c-6f6f-2c53",
+                    "hidden": false,
+                    "targetId": "c72e-bfa8-6e09-8520",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 146}]
+                  },
+                  {"name": "Slow Reload", "id": "d1bc-37cd-13e5-5748", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+                  {
+                    "name": "Blast (x)",
+                    "id": "747b-8e8e-9a9d-2bdb",
+                    "hidden": false,
+                    "targetId": "b342-c697-bc22-5b9d",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Blast (D3)"}]
+                  },
+                  {
+                    "name": "Volatile",
+                    "id": "b755-435b-8ddd-4df4",
+                    "hidden": false,
+                    "targetId": "cbee-7ff5-6692-c18b",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Volatile (3+)"}]
+                  }
+                ]
+              },
+              {
+                "name": "Combat Drill",
+                "id": "0ec0-1536-3ebe-a2a1",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "e46b-bdcc-f16e-b8e3",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "ff41-5479-9ebd-649a",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Combat Drill",
+                    "id": "bbc5-535f-5ba8-cda0",
+                    "hidden": false,
+                    "targetId": "a69c-d69b-0d0c-7673",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 146}]
+                  },
+                  {"name": "Shredder", "id": "1493-5cc9-f147-5099", "hidden": false, "targetId": "fcf1-6dbf-fbe6-fe60", "type": "rule"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Equipment Upgrades",
+            "id": "c2b8-cbd7-81b6-cf6f",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "c7da-5592-b370-4ed8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Heavy Ray Gun (Replace all weapons on 1 model)",
+                "id": "1391-22d1-2212-62ef",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "9daa-bfee-0946-a0b3",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  }
+                ],
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 20}],
+                "infoLinks": [
+                  {
+                    "name": "Heavy Ray Gun",
+                    "id": "d2d2-85da-02d2-8b9d",
+                    "hidden": false,
+                    "targetId": "39c0-48a6-4c70-fef6",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 146}]
+                  },
+                  {"name": "Experimental", "id": "4de1-7e63-7f98-a461", "hidden": false, "targetId": "355f-4a02-16d9-d854", "type": "rule"},
+                  {"name": "Heavy Firepower", "id": "728e-5a1d-50dc-abcc", "hidden": false, "targetId": "5112-40e8-57a4-8182", "type": "rule"},
+                  {
+                    "name": "Teeth and Claws",
+                    "id": "3a67-1365-b869-1077",
+                    "hidden": false,
+                    "targetId": "7eea-6d6f-6ac0-f677",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 146}]
+                  }
+                ]
+              },
+              {
+                "name": "Chem Thrower (Replace all weapons on 1 model)",
+                "id": "9545-4fcc-e93f-94b1",
+                "collective": false,
+                "hidden": false,
+                "page": 152,
+                "publicationId": "c5bf-46cc-pub1",
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "7bbb-f27c-8641-30a7",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 10}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Blast (x)",
+                    "id": "e306-6d74-9616-2429",
+                    "hidden": false,
+                    "targetId": "b342-c697-bc22-5b9d",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Blast (2D3)"}]
+                  },
+                  {
+                    "name": "Volatile",
+                    "id": "b20f-82db-1839-bec9",
+                    "hidden": false,
+                    "targetId": "cbee-7ff5-6692-c18b",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Volatile (3+)"}]
+                  },
+                  {"name": "Slow Reload", "id": "f7bd-150f-32d2-7fd3", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+                  {"name": "Experimental", "id": "6117-0ca7-a4a9-6653", "hidden": false, "targetId": "355f-4a02-16d9-d854", "type": "rule"},
+                  {
+                    "name": "Chem Thrower",
+                    "id": "41d1-0736-9b5b-2261",
+                    "hidden": false,
+                    "targetId": "6f0d-0383-83a5-01df",
+                    "type": "profile",
+                    "modifiers": [
+                      {"field": "c5f2-8050-3ee7-5f1d", "type": "set", "value": "Blast (2D3), Experimental, Slow Reload, Volatile (3+)"},
+                      {"field": "page", "type": "set", "value": 146}
+                    ]
+                  },
+                  {
+                    "name": "Teeth and Claws",
+                    "id": "1089-71cf-3acf-dfe3",
+                    "hidden": false,
+                    "targetId": "7eea-6d6f-6ac0-f677",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 146}]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Personnel Upgrades",
+            "id": "914a-41fd-d8f1-091f",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Progenitor",
+                "id": "3d2b-a2ee-0204-85b4",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "2fab-dc46-5cb7-a580",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 25}],
+                "entryLinks": [
+                  {
+                    "name": "Commander Upgrades",
+                    "id": "219f-3acb-0d41-94bd",
+                    "hidden": false,
+                    "targetId": "f47b-d502-4827-c697",
+                    "type": "selectionEntryGroup",
+                    "constraints": [
+                      {
+                        "id": "ea2a-ba37-0f2d-b84f",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Command (x)",
+                    "id": "6f1f-7213-974f-0042",
+                    "hidden": false,
+                    "targetId": "96a2-514a-252e-95a6",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Command (1)"}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Night Terror (60mm base)",
+        "id": "5a49-bbcc-6c6b-892b",
+        "collective": false,
+        "hidden": false,
+        "page": 147,
+        "publicationId": "c5bf-46cc-pub1",
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "bcf4-de8b-35bd-ab6f", "hidden": false, "primary": false, "targetId": "8227-94ec-1a3d-3a20"},
+          {"name": "New CategoryLink", "id": "15a6-0695-432e-02da", "hidden": false, "primary": true, "targetId": "2839-c510-0fdb-2a7d"}
+        ],
+        "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 55}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+        "infoLinks": [
+          {"name": "Expendable", "id": "fc1e-1e0c-ca9d-8e63", "hidden": false, "targetId": "7773-aa9f-1a77-2fd8", "type": "rule"},
+          {"name": "Unseen Terror", "id": "98e8-6a42-29bf-537b", "hidden": false, "targetId": "7f61-cebf-0699-8c2b", "type": "rule"},
+          {"name": "Unflinching", "id": "2202-18db-5765-1e85", "hidden": false, "targetId": "ec84-c518-606b-c55b", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Night Terror",
+            "id": "93f1-6b4d-ca37-eb42",
+            "hidden": false,
+            "page": 147,
+            "publicationId": "c5bf-46cc-pub1",
+            "typeId": "a154-7310-742d-79c2",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Height", "$text": "2", "typeId": "614b-945c-f241-be21"},
+              {"name": "Spd", "$text": "7", "typeId": "57fb-47e5-454f-010d"},
+              {"name": "Mel", "$text": "3+", "typeId": "22f8-2838-c2f7-a63c"},
+              {"name": "Acc", "$text": "5+", "typeId": "5ccf-0565-9b70-d0a1"},
+              {"name": "Def", "$text": "5+", "typeId": "707e-1795-1ba8-ce28"},
+              {"name": "Res", "$text": "2", "typeId": "6314-9a85-446c-b72e"},
+              {"name": "Ner", "$text": "4", "typeId": "7d58-a7d8-4cab-d5ef"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipment",
+            "id": "af55-6fa3-db30-d6f3",
+            "collective": false,
+            "defaultSelectionEntryId": "b712-c4ea-19ea-f668",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "f85a-cb02-38e1-d4e1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "dace-76a4-e527-a217",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Scythes",
+                "id": "b712-c4ea-19ea-f668",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Scythes",
+                    "id": "d0ed-c93c-8ff2-8ed4",
+                    "hidden": false,
+                    "targetId": "961d-fb39-dc9f-4de0",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 147}]
+                  }
+                ]
+              },
+              {
+                "name": "Chem Sprayer",
+                "id": "ec14-effd-5ff8-ddf7",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 15}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Chem Sprayer",
+                    "id": "d152-ee4d-2617-002e",
+                    "hidden": false,
+                    "targetId": "a477-73e2-d752-b0be",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 147}]
+                  },
+                  {
+                    "name": "Teeth and Claws",
+                    "id": "e589-22fb-4981-fa0f",
+                    "hidden": false,
+                    "targetId": "7eea-6d6f-6ac0-f677",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 147}, {"field": "54fa-c32f-5bc5-ae7c", "type": "set", "value": 2}]
+                  },
+                  {"name": "Area Effect", "id": "b173-d597-7152-752a", "hidden": false, "targetId": "9003-2dde-3612-297b", "type": "rule"},
+                  {
+                    "name": "Blast (x)",
+                    "id": "e991-3739-90d7-7aa8",
+                    "hidden": false,
+                    "targetId": "b342-c697-bc22-5b9d",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Blast (2D3)"}]
+                  },
+                  {"name": "Experimental", "id": "d4ce-bef1-44d5-9b92", "hidden": false, "targetId": "355f-4a02-16d9-d854", "type": "rule"},
+                  {"name": "Saturation", "id": "1d4d-24b6-17a0-8597", "hidden": false, "targetId": "6f83-e6a9-c707-79a5", "type": "rule"},
+                  {"name": "Slow Reload", "id": "4555-ed81-68c1-81fc", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+                  {
+                    "name": "Volatile",
+                    "id": "518f-884a-6ef6-5f31",
+                    "hidden": false,
+                    "targetId": "cbee-7ff5-6692-c18b",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Volatile (3+)"}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nightmares Unit (2)",
+        "id": "e63b-dd6c-3fdf-10eb",
+        "collective": false,
+        "hidden": false,
+        "page": 148,
+        "publicationId": "c5bf-46cc-pub1",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "630c-6c5d-8396-a6d8", "hidden": false, "primary": true, "targetId": "8227-94ec-1a3d-3a20"}],
+        "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 8}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+        "profiles": [
+          {
+            "name": "Nightmares",
+            "id": "ad70-999c-b5ec-5b75",
+            "hidden": false,
+            "page": 148,
+            "publicationId": "c5bf-46cc-pub1",
+            "typeId": "a154-7310-742d-79c2",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Height", "$text": "2", "typeId": "614b-945c-f241-be21"},
+              {"name": "Spd", "$text": "5", "typeId": "57fb-47e5-454f-010d"},
+              {"name": "Mel", "$text": "3+", "typeId": "22f8-2838-c2f7-a63c"},
+              {"name": "Acc", "$text": "5+", "typeId": "5ccf-0565-9b70-d0a1"},
+              {"name": "Def", "$text": "5+", "typeId": "707e-1795-1ba8-ce28"},
+              {"name": "Res", "$text": "2", "typeId": "6314-9a85-446c-b72e"},
+              {"name": "Ner", "$text": "2", "typeId": "7d58-a7d8-4cab-d5ef"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Nightmares",
+            "id": "4e48-846f-8aa6-42c8",
+            "collective": false,
+            "defaultSelectionEntryId": "4fe1-3aed-35b8-dc37",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "2480-1765-0fb2-7bb9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "c9e6-71d1-c4c7-e3cc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 4
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Nightmare Chem Thrower",
+                "id": "f2b6-2e91-fd43-49c5",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 49}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Equipment",
+                    "id": "0c97-ac4d-5f38-5806",
+                    "collective": false,
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "name": "Combat Drill",
+                        "id": "5c97-4f8b-93bf-04c4",
+                        "collective": false,
+                        "hidden": false,
+                        "type": "upgrade",
+                        "constraints": [
+                          {
+                            "id": "33e8-92cc-26fa-783d",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          },
+                          {
+                            "id": "5c73-db98-4513-81a5",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          }
+                        ],
+                        "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                        "infoLinks": [
+                          {
+                            "name": "Combat Drill",
+                            "id": "05e8-0681-aadc-605b",
+                            "hidden": false,
+                            "targetId": "a69c-d69b-0d0c-7673",
+                            "type": "profile",
+                            "modifiers": [{"field": "page", "type": "set", "value": 148}, {"field": "54fa-c32f-5bc5-ae7c", "type": "set", "value": 3}]
+                          },
+                          {"name": "Shredder", "id": "3ed4-c41b-14ec-a8be", "hidden": false, "targetId": "fcf1-6dbf-fbe6-fe60", "type": "rule"}
+                        ]
+                      },
+                      {
+                        "name": "Chem Thrower",
+                        "id": "d564-49ed-00e5-ba32",
+                        "collective": false,
+                        "hidden": false,
+                        "page": 152,
+                        "publicationId": "c5bf-46cc-pub1",
+                        "type": "upgrade",
+                        "constraints": [
+                          {
+                            "id": "3ae0-126e-7cd8-995d",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          },
+                          {
+                            "id": "f3cd-04bf-8710-8f0a",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          }
+                        ],
+                        "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                        "infoLinks": [
+                          {
+                            "name": "Blast (x)",
+                            "id": "c7ef-309d-ed6d-a7fe",
+                            "hidden": false,
+                            "targetId": "b342-c697-bc22-5b9d",
+                            "type": "rule",
+                            "modifiers": [{"field": "name", "type": "set", "value": "Blast (2D3)"}]
+                          },
+                          {
+                            "name": "Volatile",
+                            "id": "95ef-76e3-5193-03f5",
+                            "hidden": false,
+                            "targetId": "cbee-7ff5-6692-c18b",
+                            "type": "rule",
+                            "modifiers": [{"field": "name", "type": "set", "value": "Volatile (3+)"}]
+                          },
+                          {"name": "Slow Reload", "id": "8772-b334-96cf-897d", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+                          {"name": "Experimental", "id": "0ca3-b09e-04e2-b7e8", "hidden": false, "targetId": "355f-4a02-16d9-d854", "type": "rule"},
+                          {
+                            "name": "Chem Thrower",
+                            "id": "5822-4f41-ab2d-93d8",
+                            "hidden": false,
+                            "targetId": "6f0d-0383-83a5-01df",
+                            "type": "profile",
+                            "modifiers": [
+                              {"field": "c5f2-8050-3ee7-5f1d", "type": "set", "value": "Blast (2D3), Experimental, Slow Reload, Volatile (3+)"},
+                              {"field": "page", "type": "set", "value": 148}
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Nightmare",
+                "id": "4fe1-3aed-35b8-dc37",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 34}],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Equipment",
+                    "id": "5e4e-3160-a503-68af",
+                    "collective": false,
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "name": "Twin Combat Drills",
+                        "id": "2267-bfb8-e84c-0910",
+                        "collective": false,
+                        "hidden": false,
+                        "type": "upgrade",
+                        "constraints": [
+                          {
+                            "id": "2f6a-b1b9-68e8-db70",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          },
+                          {
+                            "id": "a70b-dcd7-6dc2-572a",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          }
+                        ],
+                        "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                        "infoLinks": [
+                          {
+                            "name": "Twin Combat Drills",
+                            "id": "38b1-f606-84b6-c6c4",
+                            "hidden": false,
+                            "targetId": "a4b9-621b-e481-eb50",
+                            "type": "profile",
+                            "modifiers": [{"field": "page", "type": "set", "value": 148}]
+                          },
+                          {"name": "Shredder", "id": "d477-75c9-e742-cf8c", "hidden": false, "targetId": "fcf1-6dbf-fbe6-fe60", "type": "rule"}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Nightmare Heavy Chem Thrower",
+                "id": "0b75-2302-0cdc-2171",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 64}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Equipment",
+                    "id": "0d86-1b9a-00bd-8d88",
+                    "collective": false,
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "name": "Combat Drill",
+                        "id": "fb87-4094-c686-544c",
+                        "collective": false,
+                        "hidden": false,
+                        "type": "upgrade",
+                        "constraints": [
+                          {
+                            "id": "47f7-9dad-6d3a-adad",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          },
+                          {
+                            "id": "6c9e-a6a9-c755-b4f1",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          }
+                        ],
+                        "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                        "infoLinks": [
+                          {
+                            "name": "Combat Drill",
+                            "id": "73b5-2682-a677-9fbd",
+                            "hidden": false,
+                            "targetId": "a69c-d69b-0d0c-7673",
+                            "type": "profile",
+                            "modifiers": [{"field": "page", "type": "set", "value": 148}, {"field": "54fa-c32f-5bc5-ae7c", "type": "set", "value": 3}]
+                          },
+                          {"name": "Shredder", "id": "6cf5-0bbd-5c61-151d", "hidden": false, "targetId": "fcf1-6dbf-fbe6-fe60", "type": "rule"}
+                        ]
+                      },
+                      {
+                        "name": "Heavy Chem Thrower",
+                        "id": "37b7-2997-b101-25b5",
+                        "collective": false,
+                        "hidden": false,
+                        "page": 152,
+                        "publicationId": "c5bf-46cc-pub1",
+                        "type": "upgrade",
+                        "constraints": [
+                          {
+                            "id": "9209-d246-8c04-9fc2",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          },
+                          {
+                            "id": "9fcf-2ed2-0a0a-680c",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          }
+                        ],
+                        "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                        "infoLinks": [
+                          {
+                            "name": "Blast (x)",
+                            "id": "b0c7-e4e4-9075-2105",
+                            "hidden": false,
+                            "targetId": "b342-c697-bc22-5b9d",
+                            "type": "rule",
+                            "modifiers": [{"field": "name", "type": "set", "value": "Blast (3D3)"}]
+                          },
+                          {
+                            "name": "Volatile",
+                            "id": "2e45-f12d-08bc-dd40",
+                            "hidden": false,
+                            "targetId": "cbee-7ff5-6692-c18b",
+                            "type": "rule",
+                            "modifiers": [{"field": "name", "type": "set", "value": "Volatile (3+)"}]
+                          },
+                          {"name": "Slow Reload", "id": "c6e2-c265-9a56-4197", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+                          {"name": "Experimental", "id": "e215-a16d-076d-73bb", "hidden": false, "targetId": "355f-4a02-16d9-d854", "type": "rule"},
+                          {
+                            "name": "Heavy Chem Thrower",
+                            "id": "fff4-396d-4b0a-2518",
+                            "hidden": false,
+                            "targetId": "86ba-79bd-a195-e87c",
+                            "type": "profile",
+                            "modifiers": [
+                              {"field": "c5f2-8050-3ee7-5f1d", "type": "set", "value": "Blast (2D3), Experimental, Slow Reload, Volatile (3+)"},
+                              {"field": "page", "type": "set", "value": 148}
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Nightmare Ravager",
+                "id": "602b-5c6c-9030-1c69",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 34}],
+                "selectionEntryGroups": [
+                  {
+                    "name": "Equipment",
+                    "id": "d748-57fc-ff69-9510",
+                    "collective": false,
+                    "hidden": false,
+                    "selectionEntries": [
+                      {
+                        "name": "Heavy Combat Drill",
+                        "id": "0647-37e5-5035-3bf9",
+                        "collective": false,
+                        "hidden": false,
+                        "type": "upgrade",
+                        "constraints": [
+                          {
+                            "id": "c059-41d6-b510-dd60",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "max",
+                            "value": 1
+                          },
+                          {
+                            "id": "b1fd-ec20-2419-41c1",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "parent",
+                            "shared": true,
+                            "type": "min",
+                            "value": 1
+                          }
+                        ],
+                        "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                        "infoLinks": [
+                          {
+                            "name": "Heavy Combat Drill",
+                            "id": "3ddb-9b43-bbec-b1cb",
+                            "hidden": false,
+                            "targetId": "74af-f293-22f8-7614",
+                            "type": "profile",
+                            "modifiers": [{"field": "page", "type": "set", "value": 148}]
+                          },
+                          {"name": "Shredder", "id": "5b06-a723-c777-4e8e", "hidden": false, "targetId": "fcf1-6dbf-fbe6-fe60", "type": "rule"},
+                          {"name": "Anti-Tank", "id": "4d94-021d-b525-b921", "hidden": false, "targetId": "f8f3-271f-9d1f-0ad5", "type": "rule"}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tunnel Runner",
+        "id": "2016-fc55-8d3d-0d62",
+        "collective": false,
+        "hidden": false,
+        "page": 148,
+        "publicationId": "c5bf-46cc-pub1",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4211-6203-28a4-157e", "hidden": false, "primary": true, "targetId": "ff2f-9876-341a-8ab3"}],
+        "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 105}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+        "infoLinks": [
+          {"name": "Bulky", "id": "b814-a7eb-cd34-b3d6", "hidden": false, "targetId": "a046-5d7f-bf8a-1c9d", "type": "rule"},
+          {"name": "Tunnel Runners", "id": "7504-1962-235c-6e22", "hidden": false, "targetId": "4107-c0df-5621-26a6", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Tunnel Runner",
+            "id": "f7a7-2355-fd8b-76eb",
+            "hidden": false,
+            "page": 148,
+            "publicationId": "c5bf-46cc-pub1",
+            "typeId": "a154-7310-742d-79c2",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Height", "$text": "3", "typeId": "614b-945c-f241-be21"},
+              {"name": "Spd", "$text": "10", "typeId": "57fb-47e5-454f-010d"},
+              {"name": "Mel", "$text": "4+", "typeId": "22f8-2838-c2f7-a63c"},
+              {"name": "Acc", "$text": "4+", "typeId": "5ccf-0565-9b70-d0a1"},
+              {"name": "Def", "$text": "6+", "typeId": "707e-1795-1ba8-ce28"},
+              {"name": "Res", "$text": "3", "typeId": "6314-9a85-446c-b72e"},
+              {"name": "Ner", "$text": "2", "typeId": "7d58-a7d8-4cab-d5ef"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipment",
+            "id": "958d-007e-ca96-1fe6",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Twin Chem Spitters",
+                "id": "e55f-b434-1e20-f796",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "56bd-e0b1-2cba-0ea1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "a8ef-acd5-b33f-2477",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Twin Chem Spitters",
+                    "id": "3a9e-519c-ee28-7741",
+                    "hidden": false,
+                    "targetId": "41dc-ad45-4f9b-f6a7",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 148}]
+                  },
+                  {"name": "Slow Reload", "id": "b22f-6a82-fe47-6796", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+                  {
+                    "name": "Blast (x)",
+                    "id": "e47c-c646-850d-6e30",
+                    "hidden": false,
+                    "targetId": "b342-c697-bc22-5b9d",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Blast (D3)"}]
+                  },
+                  {
+                    "name": "Volatile",
+                    "id": "e301-4c15-dd03-c3e5",
+                    "hidden": false,
+                    "targetId": "cbee-7ff5-6692-c18b",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Volatile (2+)"}]
+                  }
+                ]
+              },
+              {
+                "name": "Wheel",
+                "id": "fac3-bb4b-4487-7134",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "7139-b8ee-9180-7a9a",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "bddd-e7e1-e898-ae4f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Wheel",
+                    "id": "e4b1-08ab-bcf4-147b",
+                    "hidden": false,
+                    "targetId": "6c2d-6084-cc53-a17a",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 148}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tunneller",
+        "id": "1c39-55e3-7a3c-f984",
+        "collective": false,
+        "hidden": false,
+        "page": 149,
+        "publicationId": "c5bf-46cc-pub1",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2340-306e-cd37-fa5d", "hidden": false, "primary": true, "targetId": "9e6b-3f79-42ec-4d7b"}],
+        "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 180}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 2}],
+        "infoLinks": [
+          {"name": "Subterranean Deployment", "id": "9007-fb27-3114-1a96", "hidden": false, "targetId": "44f9-d9f0-1ce1-efa4", "type": "rule"},
+          {
+            "name": "Transport (x)",
+            "id": "b3dd-4c39-9c14-4f29",
+            "hidden": false,
+            "targetId": "bcb5-25cc-df59-2041",
+            "type": "rule",
+            "modifiers": [
+              {"field": "name", "type": "set", "value": "Transport (10)"},
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Transport (20)",
+                "conditions": [
+                  {
+                    "childId": "3523-c779-7872-fd60",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "1c39-55e3-7a3c-f984",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "field": "name",
+                "type": "set",
+                "value": "Transport (30)",
+                "conditions": [
+                  {
+                    "childId": "3523-c779-7872-fd60",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "1c39-55e3-7a3c-f984",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 2
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tunneller",
+            "id": "8f19-9045-1bc2-2e2f",
+            "hidden": false,
+            "page": 149,
+            "publicationId": "c5bf-46cc-pub1",
+            "typeId": "a154-7310-742d-79c2",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Height", "$text": "3", "typeId": "614b-945c-f241-be21"},
+              {"name": "Spd", "$text": "9", "typeId": "57fb-47e5-454f-010d"},
+              {"name": "Mel", "$text": "4+", "typeId": "22f8-2838-c2f7-a63c"},
+              {"name": "Acc", "$text": "5+", "typeId": "5ccf-0565-9b70-d0a1"},
+              {"name": "Def", "$text": "8+", "typeId": "707e-1795-1ba8-ce28"},
+              {"name": "Res", "$text": "4", "typeId": "6314-9a85-446c-b72e"},
+              {"name": "Ner", "$text": "3", "typeId": "7d58-a7d8-4cab-d5ef"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipment Pattern",
+            "id": "66f5-d4b0-4e72-c17c",
+            "collective": false,
+            "defaultSelectionEntryId": "f4f6-24ac-53a5-e51d",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "af6a-0365-1a5c-1833",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "2d72-1cb2-b132-f846",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Drill Head",
+                "id": "f4f6-24ac-53a5-e51d",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Drill Head",
+                    "id": "c3d6-32ff-875f-a04a",
+                    "hidden": false,
+                    "targetId": "d926-82b3-4585-ebd8",
+                    "type": "profile",
+                    "modifiers": [
+                      {"field": "page", "type": "set", "value": 149},
+                      {
+                        "field": "b494-0fb7-bcca-f3b4",
+                        "type": "set",
+                        "value": 5,
+                        "conditions": [
+                          {
+                            "childId": "0b74-5dc6-83b7-12cb",
+                            "field": "selections",
+                            "includeChildForces": true,
+                            "includeChildSelections": true,
+                            "percentValue": false,
+                            "scope": "1c39-55e3-7a3c-f984",
+                            "shared": true,
+                            "type": "equalTo",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {"name": "Shredder", "id": "6614-2ed8-1fd6-d580", "hidden": false, "targetId": "fcf1-6dbf-fbe6-fe60", "type": "rule"}
+                ]
+              },
+              {
+                "name": "Chem Sprayer",
+                "id": "474d-3d0f-6f68-abdd",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 45}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Chem Sprayer",
+                    "id": "c578-1606-ea08-4d9d",
+                    "hidden": false,
+                    "targetId": "a477-73e2-d752-b0be",
+                    "type": "profile",
+                    "modifiers": [
+                      {"field": "page", "type": "set", "value": 149},
+                      {"field": "c5f2-8050-3ee7-5f1d", "type": "set", "value": "Area Effect, Blast (2D3), Fixed (Front), Experimental, Saturation, Slow Reload, Volatile (3+)"}
+                    ]
+                  },
+                  {"name": "Area Effect", "id": "80b6-f965-bfec-9887", "hidden": false, "targetId": "9003-2dde-3612-297b", "type": "rule"},
+                  {
+                    "name": "Blast (x)",
+                    "id": "b7a0-dd00-d30f-3431",
+                    "hidden": false,
+                    "targetId": "b342-c697-bc22-5b9d",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Blast (2D3)"}]
+                  },
+                  {"name": "Experimental", "id": "899b-c030-36cf-1612", "hidden": false, "targetId": "355f-4a02-16d9-d854", "type": "rule"},
+                  {"name": "Saturation", "id": "b547-0783-1e8d-f1a4", "hidden": false, "targetId": "6f83-e6a9-c707-79a5", "type": "rule"},
+                  {"name": "Slow Reload", "id": "f082-cd57-81d8-df42", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+                  {
+                    "name": "Volatile",
+                    "id": "cde5-6b95-5da9-5d5b",
+                    "hidden": false,
+                    "targetId": "cbee-7ff5-6692-c18b",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Volatile (3+)"}]
+                  },
+                  {
+                    "name": "Fixed (x)",
+                    "id": "a88a-b7a3-e047-db07",
+                    "hidden": false,
+                    "targetId": "6f43-059b-72bf-e448",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Fixed (Front)"}]
+                  }
+                ]
+              },
+              {
+                "name": "Super-Heavy Ray Gun",
+                "id": "33bd-b78a-a961-a58d",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 60}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+                "infoLinks": [
+                  {"name": "Super Heavy Ray Gun", "id": "8929-fcf4-3ade-5b26", "hidden": false, "targetId": "f6c0-4b69-25ca-4f02", "type": "profile"},
+                  {"name": "Experimental", "id": "e7c2-cca8-aebf-d917", "hidden": false, "targetId": "355f-4a02-16d9-d854", "type": "rule"},
+                  {
+                    "name": "Fixed (x)",
+                    "id": "5dd9-88ed-246c-23b0",
+                    "hidden": false,
+                    "targetId": "6f43-059b-72bf-e448",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Fixed (Front)"}]
+                  },
+                  {"name": "Slow Reload", "id": "a54a-f44c-40da-d7f8", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+                  {"name": "Heavy Firepower", "id": "3d47-c14f-5b7a-e932", "hidden": false, "targetId": "5112-40e8-57a4-8182", "type": "rule"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Equipment Upgrades",
+            "id": "3c91-8a59-2f3a-f187",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Transport Sections",
+                "id": "3523-c779-7872-fd60",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "bb99-26d4-12c0-70c7",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 2
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 30}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}]
+              },
+              {
+                "name": "Rock Corroder",
+                "id": "0b74-5dc6-83b7-12cb",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "6c31-710b-1b12-477b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 20}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+                "infoLinks": [{"name": "Rock Corroder", "id": "08a2-7d01-f5d9-38b8", "hidden": false, "targetId": "6957-e200-ef60-945c", "type": "rule"}]
+              },
+              {
+                "name": "Pheromone Trail",
+                "id": "7457-5c36-b132-3c0c",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "e839-b99d-ab39-9436",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 25}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+                "infoLinks": [{"name": "Pheromone Trail", "id": "f5fa-7fd6-ecc4-5fb6", "hidden": false, "targetId": "01b4-8db4-a6c3-347e", "type": "rule"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rumbler Weapon Platform",
+        "id": "28a2-ad16-a2b3-f137",
+        "collective": false,
+        "hidden": false,
+        "page": 150,
+        "publicationId": "c5bf-46cc-pub1",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "f39f-845d-d812-3fc8", "hidden": false, "primary": true, "targetId": "9e6b-3f79-42ec-4d7b"}],
+        "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 130}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+        "profiles": [
+          {
+            "name": "Rumbler Weapon Platform",
+            "id": "ec00-195e-8171-74ca",
+            "hidden": false,
+            "page": 150,
+            "publicationId": "c5bf-46cc-pub1",
+            "typeId": "a154-7310-742d-79c2",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Height", "$text": "3", "typeId": "614b-945c-f241-be21"},
+              {"name": "Spd", "$text": "5", "typeId": "57fb-47e5-454f-010d"},
+              {"name": "Mel", "$text": "4+", "typeId": "22f8-2838-c2f7-a63c"},
+              {"name": "Acc", "$text": "4+", "typeId": "5ccf-0565-9b70-d0a1"},
+              {"name": "Def", "$text": "6+", "typeId": "707e-1795-1ba8-ce28"},
+              {"name": "Res", "$text": "3", "typeId": "6314-9a85-446c-b72e"},
+              {"name": "Ner", "$text": "2", "typeId": "7d58-a7d8-4cab-d5ef"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipment Pattern",
+            "id": "1b73-4540-ebf8-aaf0",
+            "collective": false,
+            "defaultSelectionEntryId": "23a5-9047-47b9-b474",
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "799e-bacb-38c7-ee13",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "dec1-457b-e565-d92d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Super-Heavy Ray Gun",
+                "id": "23a5-9047-47b9-b474",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "infoLinks": [
+                  {"name": "Experimental", "id": "aec9-1ec2-f120-c099", "hidden": false, "targetId": "355f-4a02-16d9-d854", "type": "rule"},
+                  {"name": "Slow Reload", "id": "1b64-0807-6cd2-7a75", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+                  {"name": "Heavy Firepower", "id": "5c4d-71fa-72a2-d390", "hidden": false, "targetId": "5112-40e8-57a4-8182", "type": "rule"},
+                  {
+                    "name": "Super-Heavy Ray Gun",
+                    "id": "ee34-9c6a-d3db-5965",
+                    "hidden": false,
+                    "targetId": "f6c0-4b69-25ca-4f02",
+                    "type": "profile",
+                    "modifiers": [{"field": "c5f2-8050-3ee7-5f1d", "type": "set", "value": "Experimental, Heavy Firepower, Slow Reload"}, {"field": "page", "type": "set", "value": 150}]
+                  },
+                  {
+                    "name": "Assault",
+                    "id": "a7a4-7ece-12d8-878d",
+                    "hidden": false,
+                    "targetId": "4ee8-047b-91c8-0549",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 150}]
+                  }
+                ]
+              },
+              {
+                "name": "Super-Heavy Chem Thrower",
+                "id": "54a2-ca47-2f39-062f",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 20}],
+                "infoLinks": [
+                  {
+                    "name": "Super-Heavy Chem Thrower",
+                    "id": "ed92-16f7-2e61-7177",
+                    "hidden": false,
+                    "targetId": "fb18-644a-49b9-7656",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 150}]
+                  },
+                  {"name": "Area Effect", "id": "f920-2649-fd9f-6011", "hidden": false, "targetId": "9003-2dde-3612-297b", "type": "rule"},
+                  {"name": "Experimental", "id": "3db9-2da7-79e6-5db2", "hidden": false, "targetId": "355f-4a02-16d9-d854", "type": "rule"},
+                  {
+                    "name": "Blast (x)",
+                    "id": "a9ee-fe1d-882a-bb83",
+                    "hidden": false,
+                    "targetId": "b342-c697-bc22-5b9d",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Blast (3D3)"}]
+                  },
+                  {"name": "Slow Reload", "id": "ff72-b0e4-19a6-8bdd", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+                  {
+                    "name": "Volatile",
+                    "id": "d2d9-6ede-7fec-398b",
+                    "hidden": false,
+                    "targetId": "cbee-7ff5-6692-c18b",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Volatile (2+)"}]
+                  },
+                  {
+                    "name": "Assault",
+                    "id": "6963-aca5-f69d-50c7",
+                    "hidden": false,
+                    "targetId": "4ee8-047b-91c8-0549",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 150}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Brood Mother",
+        "id": "67b2-8da5-17d9-b8dd",
+        "collective": false,
+        "hidden": false,
+        "page": 150,
+        "publicationId": "c5bf-46cc-pub1",
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "11b6-2907-9b0c-e00b", "hidden": false, "primary": false, "targetId": "8227-94ec-1a3d-3a20"},
+          {"name": "New CategoryLink", "id": "8808-4838-264b-48f6", "hidden": false, "primary": true, "targetId": "2839-c510-0fdb-2a7d"}
+        ],
+        "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 115}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Commander Upgrades",
+            "id": "fea8-730b-b4b9-8d24",
+            "hidden": false,
+            "targetId": "f47b-d502-4827-c697",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "3858-11da-7191-544d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Protection (x)",
+            "id": "bd0a-e9c7-f85f-d03b",
+            "hidden": false,
+            "targetId": "445e-000b-31fb-92a2",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Protection (Large Infantry, Nightcrawlers)"}]
+          },
+          {"name": "Inspiring", "id": "69e6-6ec1-fe54-8ef9", "hidden": false, "targetId": "6a9f-8722-5a9a-c1a8", "type": "rule"},
+          {
+            "name": "Command (x)",
+            "id": "e28a-2daa-1aab-4aa0",
+            "hidden": false,
+            "targetId": "96a2-514a-252e-95a6",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Command (3)"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Brood Mother",
+            "id": "1e7c-f736-e294-2126",
+            "hidden": false,
+            "page": 150,
+            "publicationId": "c5bf-46cc-pub1",
+            "typeId": "a154-7310-742d-79c2",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Height", "$text": "2", "typeId": "614b-945c-f241-be21"},
+              {"name": "Spd", "$text": "5", "typeId": "57fb-47e5-454f-010d"},
+              {"name": "Mel", "$text": "4+", "typeId": "22f8-2838-c2f7-a63c"},
+              {"name": "Acc", "$text": "4+", "typeId": "5ccf-0565-9b70-d0a1"},
+              {"name": "Def", "$text": "5+", "typeId": "707e-1795-1ba8-ce28"},
+              {"name": "Res", "$text": "2", "typeId": "6314-9a85-446c-b72e"},
+              {"name": "Ner", "$text": "2", "typeId": "7d58-a7d8-4cab-d5ef"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipment",
+            "id": "50ed-d0d6-2da4-fba4",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Glaive",
+                "id": "ccab-91eb-771b-fec5",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "12b3-ef79-aded-d40c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "ea1d-1066-90e7-6106",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Glaive",
+                    "id": "6b2c-9a2f-5a7c-b51b",
+                    "hidden": false,
+                    "targetId": "6b14-46cd-3eec-2ebf",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 150}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tangle",
+        "id": "0a9b-aeb9-4799-aa22",
+        "collective": false,
+        "hidden": false,
+        "page": 151,
+        "publicationId": "c5bf-46cc-pub1",
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "dc16-0435-2ccb-22be", "hidden": false, "primary": true, "targetId": "2839-c510-0fdb-2a7d"},
+          {"name": "New CategoryLink", "id": "bd14-c71b-5cd1-b8f7", "hidden": false, "primary": false, "targetId": "c566-b1d1-6463-db4c"}
+        ],
+        "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 145}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Commander Upgrades",
+            "id": "ca4c-89cf-954c-085e",
+            "hidden": false,
+            "targetId": "f47b-d502-4827-c697",
+            "type": "selectionEntryGroup",
+            "constraints": [
+              {
+                "id": "b67d-863d-c7f6-b07d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Protection (x)",
+            "id": "1c94-42cf-0312-2734",
+            "hidden": false,
+            "targetId": "445e-000b-31fb-92a2",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Protection (Regular Infantry)"}]
+          },
+          {"name": "Inspiring", "id": "5e8e-923d-779a-e870", "hidden": false, "targetId": "6a9f-8722-5a9a-c1a8", "type": "rule"},
+          {"name": "Bulky", "id": "e19c-1db5-4302-23c4", "hidden": false, "targetId": "a046-5d7f-bf8a-1c9d", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Tangle (60mm base)",
+            "id": "cd14-7d3b-413e-1120",
+            "hidden": false,
+            "page": 151,
+            "publicationId": "c5bf-46cc-pub1",
+            "typeId": "a154-7310-742d-79c2",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Height", "$text": "2", "typeId": "614b-945c-f241-be21"},
+              {"name": "Spd", "$text": "5", "typeId": "57fb-47e5-454f-010d"},
+              {"name": "Mel", "$text": "4+", "typeId": "22f8-2838-c2f7-a63c"},
+              {"name": "Acc", "$text": "4+", "typeId": "5ccf-0565-9b70-d0a1"},
+              {"name": "Def", "$text": "5+", "typeId": "707e-1795-1ba8-ce28"},
+              {"name": "Res", "$text": "2", "typeId": "6314-9a85-446c-b72e"},
+              {"name": "Ner", "$text": "3", "typeId": "7d58-a7d8-4cab-d5ef"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Prophet",
+            "id": "9ec1-2ae3-2a5a-38d1",
+            "description": "While the Tangle is not a Commander as such, it can use its premonitions to direct its brood towards the events they were fated to witness. At the beginning of each turn the Tangle will generate 2 Command dice. These dice may only be used by the Tangle itself, and the Tangle may not use the regular Command pool. The dice may be used to issue Orders of any level. The Tangle is considered to have a Command value of ❷for any rules that require it, such as the Call to Arms Order. If the dice are not used by the end of the turn, they are discarded.\nNote: These dice are never put back into the pool if a + is rolled. Nor are they\nplaced at the side of the board to be rolled at the start of each turn (see page 68).",
+            "hidden": false,
+            "page": 151,
+            "publicationId": "c5bf-46cc-pub1"
+          },
+          {
+            "name": "Premonition Order",
+            "id": "0a12-a334-1888-75d1",
+            "description": "This Order may only be given by a Tangle.\nAs a Level 2 Order the Tangle imparts one of its visions into the minds of an opponent’s unit, distracting it from the task at hand.\nIf the Order is successful, choose an unengaged, unactivated enemy Infantry unit within range. Roll a single D6 and compare it to the unit’s Nerve stat. If the result on the die is greater than the unit’s Nerve, the Veer-myn player may make a single Move action with the unit (which may not end in contact with an enemy), add a suppression token to it, and then mark it as activated.\nThis counts as the Veer-myn player’s activation.",
+            "hidden": false,
+            "page": 151,
+            "publicationId": "c5bf-46cc-pub1"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipment",
+            "id": "389d-836b-eafd-47f6",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Ray Pistol",
+                "id": "9514-606d-5846-b69a",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "c464-0617-1e29-ac36",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "92c7-cf7f-fb07-ca62",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Ray Pistol",
+                    "id": "a793-3a69-c669-c7f5",
+                    "hidden": false,
+                    "targetId": "6840-f068-daf6-d350",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 151}]
+                  }
+                ]
+              },
+              {
+                "name": "Teeth and Claws",
+                "id": "925d-2af3-cad0-8cbb",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "813c-683b-d0e5-584e",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "afb0-37da-ff31-6ab2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Teeth and Claws",
+                    "id": "7a85-a87c-f82a-2d6f",
+                    "hidden": false,
+                    "targetId": "7eea-6d6f-6ac0-f677",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 151}, {"field": "54fa-c32f-5bc5-ae7c", "type": "set", "value": 6}]
+                  },
+                  {"name": "Anti-Tank", "id": "7f6e-867c-c58c-b8e7", "hidden": false, "targetId": "f8f3-271f-9d1f-0ad5", "type": "rule"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hacker Halftail",
+        "id": "3fd4-14d9-2501-331d",
+        "collective": false,
+        "hidden": false,
+        "page": 152,
+        "publicationId": "c5bf-46cc-pub1",
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "f9bb-e13f-bfd5-aef1", "hidden": false, "primary": true, "targetId": "2839-c510-0fdb-2a7d"},
+          {"name": "New CategoryLink", "id": "c179-34ec-a629-9590", "hidden": false, "primary": false, "targetId": "c566-b1d1-6463-db4c"}
+        ],
+        "constraints": [
+          {
+            "id": "e381-4f1e-9170-0a00",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "force",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 100}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+        "infoLinks": [
+          {
+            "name": "Command (x)",
+            "id": "5efd-43db-9698-be33",
+            "hidden": false,
+            "targetId": "96a2-514a-252e-95a6",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Command (2)"}]
+          },
+          {
+            "name": "Protection (x)",
+            "id": "8a96-7780-93b0-b00c",
+            "hidden": false,
+            "targetId": "445e-000b-31fb-92a2",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Protection (Regular Infantry)"}]
+          },
+          {"name": "Recon", "id": "1222-1307-259b-e20e", "hidden": false, "targetId": "d103-4c7f-1f94-b185", "type": "rule"},
+          {"name": "Sabotage Objective Order", "id": "00ce-dc49-7b6c-e33d", "hidden": false, "targetId": "9a2a-9ccd-e571-d5d0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Hacker Halftail",
+            "id": "2ad4-fdc6-ed32-9ffe",
+            "hidden": false,
+            "page": 151,
+            "publicationId": "c5bf-46cc-pub1",
+            "typeId": "a154-7310-742d-79c2",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Height", "$text": "2", "typeId": "614b-945c-f241-be21"},
+              {"name": "Spd", "$text": "5", "typeId": "57fb-47e5-454f-010d"},
+              {"name": "Mel", "$text": "4+", "typeId": "22f8-2838-c2f7-a63c"},
+              {"name": "Acc", "$text": "4+", "typeId": "5ccf-0565-9b70-d0a1"},
+              {"name": "Def", "$text": "5+", "typeId": "707e-1795-1ba8-ce28"},
+              {"name": "Res", "$text": "2", "typeId": "6314-9a85-446c-b72e"},
+              {"name": "Ner", "$text": "3", "typeId": "7d58-a7d8-4cab-d5ef"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Disruption",
+            "id": "49eb-311b-dbc8-cabc",
+            "description": "This unit gains access to a new type of long action: Disrupt. This action may be used against any one enemy unit within 12\". Roll a die.\n1. No effect.\n2. Remove one of the following special rules of the Disrupting player’s choice from the unit and its weapons until the end of the Turn – Anti-Grav, Communications, Shield (X), Tag.\n3. As above, plus add a suppression token to the unit.\n4. As above, plus add a second suppression token to the unit.\n5. As above, plus pick one of the unit’s ranged weapons – it cannot fire this turn.\n6. As above, plus mark the unit as activated.",
+            "hidden": false,
+            "page": 152,
+            "publicationId": "c5bf-46cc-pub1"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipment",
+            "id": "dfbf-f8ac-13ca-527f",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Ray Pistol",
+                "id": "9dd5-e1c3-eaa7-36f6",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "b94b-5c1e-7cda-a9f8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "9c75-40bf-6acb-8218",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Ray Pistol",
+                    "id": "ae59-9684-6928-a8d0",
+                    "hidden": false,
+                    "targetId": "6840-f068-daf6-d350",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 152}]
+                  }
+                ]
+              },
+              {
+                "name": "Explosives",
+                "id": "e848-4a3e-40fd-22d5",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "15d2-58cc-58b8-cc36",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "178b-deaf-dce7-13d8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}, {"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 0}],
+                "infoLinks": [
+                  {
+                    "name": "Explosives",
+                    "id": "385d-5e57-1c57-200c",
+                    "hidden": false,
+                    "targetId": "8b75-7891-27c2-3191",
+                    "type": "profile",
+                    "modifiers": [{"field": "page", "type": "set", "value": 152}]
+                  },
+                  {"name": "Anti-Tank", "id": "6162-3052-84cd-32fe", "hidden": false, "targetId": "f8f3-271f-9d1f-0ad5", "type": "rule"}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Chem Grenade Launcher",
+        "id": "075f-bdd0-6c33-a8f4",
+        "hidden": false,
+        "page": 152,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "1", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "1", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Blast (D3)", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Chem Spitter",
+        "id": "c72e-bfa8-6e09-8520",
+        "hidden": false,
+        "page": 152,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "9\"", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "1", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "1", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Blast (D3), Slow Reload, Volatile (3+)", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Chem Staff (R)",
+        "id": "ee0f-61df-ae2d-0537",
+        "hidden": false,
+        "page": 152,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "9\"", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "1", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "1", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Blast (D3), Slow Reload, Volatile (3+)", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Chem Staff (A)",
+        "id": "e3d6-8906-4de9-bfc6",
+        "hidden": false,
+        "page": 152,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "A", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "1", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "1", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Blast (D3)", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Chem Thrower",
+        "id": "6f0d-0383-83a5-01df",
+        "hidden": false,
+        "page": 152,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "12\"", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "1", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "2", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Blast (2D3), Experimental, Saturation, Slow Reload, Volatile (3+)", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Det Pack",
+        "id": "d694-7e83-b79a-b0c1",
+        "hidden": false,
+        "page": 152,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "A", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "2", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "4", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Anti-Tank", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Ray Gun",
+        "id": "6ebc-493b-5e58-7398",
+        "hidden": false,
+        "page": 152,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "18\"", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "2", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "-", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "-", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Ray Pistol",
+        "id": "6840-f068-daf6-d350",
+        "hidden": false,
+        "page": 152,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "9\"", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "2", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "-", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "-", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Spitter Rifle",
+        "id": "cf4f-60b2-787a-1e41",
+        "hidden": false,
+        "page": 152,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "24\"", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "1", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "1", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Heavy Firepower, Slow Reload, Suppressive Fire (1)", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Teeth and Claws",
+        "id": "7eea-6d6f-6ac0-f677",
+        "hidden": false,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "A", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "1", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "-", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "-", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Knives, Teeth and Claws",
+        "id": "8dd8-fedd-c7eb-140c",
+        "hidden": false,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "A", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "2", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "-", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "-", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Heavy Ray Gun",
+        "id": "39c0-48a6-4c70-fef6",
+        "hidden": false,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "32\"", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "2", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "4", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Experimental, Heavy Firepower", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Combat Drill",
+        "id": "a69c-d69b-0d0c-7673",
+        "hidden": false,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "A", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "2", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "3", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Shredder", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Scythes",
+        "id": "961d-fb39-dc9f-4de0",
+        "hidden": false,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "A", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "5", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "2", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "-", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Chem Sprayer",
+        "id": "a477-73e2-d752-b0be",
+        "hidden": false,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "12\"", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "1", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "3", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Area Effect, Blast (2D3), Experimental, Saturation, Slow Reload, Volatile (3+)", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Twin Combat Drills",
+        "id": "a4b9-621b-e481-eb50",
+        "hidden": false,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "A", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "6", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "3", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Shredder", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Heavy Chem Thrower",
+        "id": "86ba-79bd-a195-e87c",
+        "hidden": false,
+        "page": 148,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "1", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "3", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Blast (3D3), Experimental, Slow Reload, Volatile (3+)", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Heavy Combat Drill",
+        "id": "74af-f293-22f8-7614",
+        "hidden": false,
+        "page": 148,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "A", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "2", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "4", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Anti-Tank, Shredder", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Twin Chem Spitters",
+        "id": "41dc-ad45-4f9b-f6a7",
+        "hidden": false,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "9\"", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "2", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "1", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Blast (D3), Slow Reload, Volatile (2+)", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Wheel",
+        "id": "6c2d-6084-cc53-a17a",
+        "hidden": false,
+        "page": 148,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "A", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "4", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "-", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Drill Head",
+        "id": "d926-82b3-4585-ebd8",
+        "hidden": false,
+        "page": 149,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "R", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "8", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "4", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Shredder", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Super-Heavy Ray Gun",
+        "id": "f6c0-4b69-25ca-4f02",
+        "hidden": false,
+        "page": 149,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "40\"", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "2", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "6", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Experimental, Fixed (Front), Heavy Firepower, Slow Reload", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Super-Heavy Chem Thrower",
+        "id": "fb18-644a-49b9-7656",
+        "hidden": false,
+        "page": 150,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "16\"", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "1", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "3", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Area Effect, Blast (3D3), Experimental, Slow Reload, Volatile (3+)", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Assault",
+        "id": "4ee8-047b-91c8-0549",
+        "hidden": false,
+        "page": 150,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "R", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "2", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "-", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "-", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Glaive",
+        "id": "6b14-46cd-3eec-2ebf",
+        "hidden": false,
+        "page": 150,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "A", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "1", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "-", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      },
+      {
+        "name": "Explosives",
+        "id": "8b75-7891-27c2-3191",
+        "hidden": false,
+        "page": 151,
+        "publicationId": "c5bf-46cc-pub1",
+        "typeId": "6f7a-f8d6-ab6a-df58",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Range", "$text": "A", "typeId": "8bb9-64fd-8460-7663"},
+          {"name": "Dice", "$text": "2", "typeId": "54fa-c32f-5bc5-ae7c"},
+          {"name": "AP", "$text": "4", "typeId": "b494-0fb7-bcca-f3b4"},
+          {"name": "Special", "$text": "Anti-Tank", "typeId": "c5f2-8050-3ee7-5f1d"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Tunnel Runners",
+        "id": "4107-c0df-5621-26a6",
+        "description": "Once a Veer-Myn Tunneller has arrived on the board using its Subterranean Deploymentrule, place a tunnel marker in the position where it arrived. From that time onwards, units with this rule previously placed in reserve may arrive on the board from any tunnel marker as if they had the Subterranean Deploymentrule themselves, and do not need to roll any Command dice to do so.",
+        "hidden": false,
+        "page": 145,
+        "publicationId": "c5bf-46cc-pub1"
+      },
+      {
+        "name": "Unseen Terror",
+        "id": "7f61-cebf-0699-8c2b",
+        "description": "Night Terrors cannot be targeted by Shooting attacks while there are at least 3 Nightcrawler units within 6\" of it, representing the Nightcrawlers keeping it hidden within their ranks. It does not block line of sight – it is considered to simply not be on the table for targeting and line of sight purposes.\nIn addition, the Veer-myn player needs these troops to keep control of the Terror. At the beginning of each of the Terror’s Activations where there are less than 3 Nightcrawler units within 6\", roll a die. On a 1-2 the Terror will be uncontrollable. It must use its Activation to Double Move as directly as possible towards the nearest other unit, friend or foe, and engage it in Assault.",
+        "hidden": false,
+        "page": 147,
+        "publicationId": "c5bf-46cc-pub1"
+      },
+      {
+        "name": "Pheromone Trail",
+        "id": "01b4-8db4-a6c3-347e",
+        "description": "The chemical tank mounted onto the back of the Tunneller emits a scent that can be detected by all Veer-myn in the brood, allowing them to follow the vehicle through the tunnel network. This bestows the Tunnel Runnersrule upon any Infantry units kept in Reserve",
+        "hidden": false,
+        "page": 149,
+        "publicationId": "c5bf-46cc-pub1"
+      },
+      {
+        "name": "Rock Corroder",
+        "id": "6957-e200-ef60-945c",
+        "description": "This Tunneller coats its drill bits in corrosive chemicals, which eat away at the earth as the Tunneller moves forward. When you use the Tunneller’s Subterranean Deployment rule to enter the table with a Reserves Order, this Tunneller may re-roll one of the Command dice. In addition, the AP of the unit’s Drill Head is increased by 1 to 5.",
+        "hidden": false,
+        "page": 149,
+        "publicationId": "c5bf-46cc-pub1"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Progenitor",
+        "id": "c254-7faf-2c48-70f2",
+        "collective": false,
+        "hidden": false,
+        "page": 152,
+        "publicationId": "c5bf-46cc-pub2",
+        "type": "upgrade",
+        "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 25}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+        "infoLinks": [
+          {
+            "name": "Command (x)",
+            "id": "8e6b-9160-2423-e731",
+            "hidden": false,
+            "targetId": "96a2-514a-252e-95a6",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Command (1)"}]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Commander Upgrades",
+        "id": "f47b-d502-4827-c697",
+        "collective": false,
+        "hidden": false,
+        "selectionEntries": [
+          {
+            "name": "Chem Grenade Launcher",
+            "id": "9c37-3935-2c3d-ad44",
+            "collective": false,
+            "hidden": false,
+            "page": 152,
+            "publicationId": "c5bf-46cc-pub1",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "8bdb-4c61-362c-56ed",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 15}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+            "infoLinks": [
+              {"name": "Chem Grenade Launcher", "id": "9aa0-e634-fc2b-6e26", "hidden": false, "targetId": "075f-bdd0-6c33-a8f4", "type": "profile"},
+              {
+                "name": "Blast (x)",
+                "id": "ebf9-e313-70f5-cbbc",
+                "hidden": false,
+                "targetId": "b342-c697-bc22-5b9d",
+                "type": "rule",
+                "modifiers": [{"field": "name", "type": "set", "value": "Blast (D3)"}]
+              }
+            ]
+          },
+          {
+            "name": "Chem Spitter",
+            "id": "4ff8-d116-0a21-133a",
+            "collective": false,
+            "hidden": false,
+            "page": 152,
+            "publicationId": "c5bf-46cc-pub1",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "7209-1115-4f7a-13d7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 10}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Blast (x)",
+                "id": "d975-1166-4e96-589f",
+                "hidden": false,
+                "targetId": "b342-c697-bc22-5b9d",
+                "type": "rule",
+                "modifiers": [{"field": "name", "type": "set", "value": "Blast (D3)"}]
+              },
+              {"name": "Slow Reload", "id": "1aea-91f3-983a-b7af", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+              {
+                "name": "Volatile",
+                "id": "3473-dc4e-8291-b835",
+                "hidden": false,
+                "targetId": "cbee-7ff5-6692-c18b",
+                "type": "rule",
+                "modifiers": [{"field": "name", "type": "set", "value": "Volatile (3+)"}]
+              },
+              {"name": "Chem Spitter", "id": "487c-ef01-5653-d349", "hidden": false, "targetId": "c72e-bfa8-6e09-8520", "type": "profile"}
+            ]
+          },
+          {
+            "name": "Chem Staff",
+            "id": "ca24-96ad-c342-87a6",
+            "collective": false,
+            "hidden": false,
+            "page": 152,
+            "publicationId": "c5bf-46cc-pub1",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "da71-1243-edcb-e1cc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 15}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Blast (x)",
+                "id": "a6cd-b240-e605-e71a",
+                "hidden": false,
+                "targetId": "b342-c697-bc22-5b9d",
+                "type": "rule",
+                "modifiers": [{"field": "name", "type": "set", "value": "Blast (D3)"}]
+              },
+              {"name": "Chem Staff (A)", "id": "e0aa-06b3-8822-32f3", "hidden": false, "targetId": "e3d6-8906-4de9-bfc6", "type": "profile"},
+              {"name": "Chem Staff (R)", "id": "5876-2cba-241e-f5eb", "hidden": false, "targetId": "ee0f-61df-ae2d-0537", "type": "profile"},
+              {"name": "Slow Reload", "id": "013d-b125-00ee-2bbd", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+              {
+                "name": "Volatile",
+                "id": "f92a-a016-1111-dbc7",
+                "hidden": false,
+                "targetId": "cbee-7ff5-6692-c18b",
+                "type": "rule",
+                "modifiers": [{"field": "name", "type": "set", "value": "Volatile (3+)"}]
+              }
+            ]
+          },
+          {
+            "name": "Chem Thrower",
+            "id": "6a43-f71b-e641-967f",
+            "collective": false,
+            "hidden": false,
+            "page": 152,
+            "publicationId": "c5bf-46cc-pub1",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "4030-0d47-7317-c99f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 10}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+            "infoLinks": [
+              {
+                "name": "Blast (x)",
+                "id": "e86c-3863-0f85-46aa",
+                "hidden": false,
+                "targetId": "b342-c697-bc22-5b9d",
+                "type": "rule",
+                "modifiers": [{"field": "name", "type": "set", "value": "Blast (2D3)"}]
+              },
+              {
+                "name": "Volatile",
+                "id": "1744-d150-a0b4-284f",
+                "hidden": false,
+                "targetId": "cbee-7ff5-6692-c18b",
+                "type": "rule",
+                "modifiers": [{"field": "name", "type": "set", "value": "Volatile (3+)"}]
+              },
+              {"name": "Slow Reload", "id": "e394-a76b-e233-763f", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+              {"name": "Experimental", "id": "72ca-fbfa-9396-371e", "hidden": false, "targetId": "355f-4a02-16d9-d854", "type": "rule"},
+              {"name": "Saturation", "id": "fa7d-14da-7f7e-2cc9", "hidden": false, "targetId": "6f83-e6a9-c707-79a5", "type": "rule"},
+              {"name": "Chem Thrower", "id": "c4fd-edd7-64ec-98ae", "hidden": false, "targetId": "6f0d-0383-83a5-01df", "type": "profile"}
+            ]
+          },
+          {
+            "name": "Det Pack",
+            "id": "7adf-5795-4d09-38e9",
+            "collective": false,
+            "hidden": false,
+            "page": 152,
+            "publicationId": "c5bf-46cc-pub1",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "4b6f-280b-d7b3-7ddc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 12}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+            "infoLinks": [
+              {"name": "Anti-Tank", "id": "aba3-0de7-6ec0-11c7", "hidden": false, "targetId": "f8f3-271f-9d1f-0ad5", "type": "rule"},
+              {"name": "Det Pack", "id": "aabd-8a3d-de8f-b91b", "hidden": false, "targetId": "d694-7e83-b79a-b0c1", "type": "profile"}
+            ]
+          },
+          {
+            "name": "Ray Gun",
+            "id": "4995-d9a1-adaa-6505",
+            "collective": false,
+            "hidden": false,
+            "page": 152,
+            "publicationId": "c5bf-46cc-pub1",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "04c3-96da-6c74-56a6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 7}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+            "infoLinks": [{"name": "Ray Gun", "id": "5d3e-97fd-3210-2a96", "hidden": false, "targetId": "6ebc-493b-5e58-7398", "type": "profile"}]
+          },
+          {
+            "name": "Ray Pistol",
+            "id": "684e-85b3-8a18-81f9",
+            "collective": false,
+            "hidden": false,
+            "page": 152,
+            "publicationId": "c5bf-46cc-pub1",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "c9af-3253-da31-1b53",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 4}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+            "infoLinks": [{"name": "Ray Pistol", "id": "fe24-0915-a803-03b8", "hidden": false, "targetId": "6840-f068-daf6-d350", "type": "profile"}]
+          },
+          {
+            "name": "Spitter Rifle",
+            "id": "e9c4-9840-8994-5f3c",
+            "collective": false,
+            "hidden": false,
+            "page": 152,
+            "publicationId": "c5bf-46cc-pub1",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "f3e4-1f9e-39ee-f1f7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "pts", "typeId": "5190-8e25-ff8e-fa19", "value": 15}, {"name": "★ HVA", "typeId": "92e4-aedb-f7f3-fbda", "value": 0}],
+            "infoLinks": [
+              {"name": "Spitter Rifle", "id": "dc89-86dd-3465-c968", "hidden": false, "targetId": "cf4f-60b2-787a-1e41", "type": "profile"},
+              {"name": "Heavy Firepower", "id": "4bab-1ead-4502-adee", "hidden": false, "targetId": "5112-40e8-57a4-8182", "type": "rule"},
+              {"name": "Slow Reload", "id": "f434-6721-0aee-7ea5", "hidden": false, "targetId": "8599-bc1a-b5cd-88b5", "type": "rule"},
+              {
+                "name": "Suppressive Fire (x)",
+                "id": "de0c-e137-b33e-51c8",
+                "hidden": false,
+                "targetId": "cb19-f40b-1721-d0f0",
+                "type": "rule",
+                "modifiers": [{"field": "name", "type": "set", "value": "Suppressive Fire (1)"}]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
