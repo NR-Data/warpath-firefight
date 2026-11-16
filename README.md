@@ -1,33 +1,26 @@
-Warpath: Firefight
-==================
+# Warpath: Firefight data
 
-#### Contents ####
+Army list data files for Warpath: Firefight.
 
-* [Overview][]
-* [Links][]
+> **Community rehost.** These files were written by the community contributors listed below and were previously published at `github.com/BSData/warpath-firefight`, which is no longer online. This copy keeps them available and open to updates.
+>
+> They are not made, maintained or endorsed by NewRecruit. Nobody here is affiliated with or endorsed by the publisher of Warpath: Firefight. All game names and trademarks belong to their respective owners. You still need the official rules to play.
 
-## Overview ##
-[Overview]: #overview
+## Is this maintained?
 
-__What's this?__
+It is open for updates, not archived. It is kept up by whoever contributes to it, so check the commit history to see how current it is. Last data change before the rehost: 2017-09-20.
 
-BSData organisation created this project. It's GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe. If you want
-to develop - cool! We need you! Take a look at [Getting Started wiki][]
+## How to update it
 
-__Okay, nice project. Is it actually working?__ _I just want those files..._
+- **Pull request:** fork this repository, make your changes and open a pull request.
+- **Write access:** if you want to maintain this game, ask on the NewRecruit Discord: https://discord.gg/cCtqGbugwb
 
-Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
+## File format
 
+The files are JSON, converted on 2026-11-16 from the original BattleScribe XML (`.cat`/`.gst`). The XML versions are in the git history before that commit.
 
-## Links ##
-[Links]: #links
+## Authors
 
-* [BattleScribe homepage][]
-* [BattleScribe Data on Appspot][]
-* [Getting Started wiki][]
+From the git history of the data files:
 
-
-[BattleScribe homepage]: http://www.battlescribe.net/
-[BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
-[Getting Started wiki]: https://github.com/BSData/bsdata/wiki/Home#getting-started
+- BAE2
